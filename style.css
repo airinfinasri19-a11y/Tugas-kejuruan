@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerita Tenang Diriku 🌸✨</title>
+    <style>
+        /* Background pastel dengan gradient */
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #e0f7fa, #f3e5f5);
+            font-family: 'Poppins', 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container utama */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ffffffcc;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        /* Judul */
+        h1 {
+            color: #ff66b2;
+            font-size: 30px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px #ffd6e7;
+            position: relative;
+        }
+
+        /* Emoji hiasan di judul */
+        h1::before {
+            content: "🌸 ";
+        }
+
+        h1::after {
+            content: " ✨";
+        }
+
+        /* Gambar profil */
+        .foto {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffb3c6;
+            box-shadow: 0 6px 15px rgba(255, 105, 180, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            margin-bottom: 20px;
+        }
+
+        /* Efek hover gambar */
+        .foto:hover {
+            transform: scale(1.1) rotate(-5deg);
+            box-shadow: 0 12px 25px rgba(245, 0, 122, 0.6);
+        }
+
+        /* Paragraf cerita */
+        p {
+            background-color: #fff0f6;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+            box-shadow: inset 0 0 12px rgba(255, 182, 193, 0.3);
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efek hover paragraf */
+        p:hover {
+            background-color: #ffe4ec;
+        }
+
+        /* Animasi masuk */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animasi judul bergetar */
+        h1:hover {
+            animation: wiggle 0.5s ease-in-out infinite;
+        }
+
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(2deg); }
+            75% { transform: rotate(-2deg); }
+        }
+
+        /* Hiasan footer */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cerita Tenang Diriku</h1>
+        <img src="fotoku.jpg" alt="Foto Diriku" class="foto">
+        <p>
+            Aku adalah seorang anak yang hidup di kelilingi banyak rintangan kehidupan. Kadang aku bingung kapan rintangan itu berakhir.
+            Aku sudah lelah, banyak tekanan, banyak pikiran. Itu semua ingin membuatku hilang arah, tetapi aku sangat bangga pada diriku
+            sendiri karena bisa bertahan hingga kini. Jalan terbaik dari semua itu cuma bersabar dan sabarrr.
+        </p>
+        <footer>🌈 Dibuat dengan penuh cinta dan semangat 💕</footer>
+    </div>
+</body>
+</html>
+2
